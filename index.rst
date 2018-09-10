@@ -1,6 +1,12 @@
 FluxDoc: Document Repository
 ============================
 
+.. warning::
+
+   **Work In Progress**
+
+   `In discussion here <https://fluxvolunteers.slack.com/messages/C9LGQ0XLH/convo/C1BH0R59T-1520551600.000406/>`_
+
 It is
 -----
 
@@ -9,15 +15,16 @@ It is
 * a git repository containing the full history of the documents and the changes made to them
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
+   docs/branches/index
+   docs/foundation/index
+   docs/flux_internal_structure
    docs/constitutions/index
+   docs/member-guide/index
    docs/policies/index
-   docs/flux_technical_roadmap
+   docs/tech/index
    docs/contributing/index
-   docs/faq
+   docs/faq/index
    docs/glossary
-
-
-* :ref:`genindex`
